@@ -1,0 +1,511 @@
+$pink-000: #f77ef1;
+$pink-100: #f967f1;
+$pink-200: #e94ee1;
+$pink-300: #dd2cd4;
+$grey-md-000: #f5f6fa;
+$grey-md-100: #eeebee;
+$grey-md-200: #ecebed;
+$grey-md-300: #44434d;
+$metw-000: #f49e86;
+$metw-100: #f49e86;
+$metw-200: #44434d;
+$metw-300: #44434d;
+$meul-000: #f49e86;
+$meul-100: #f49e86;
+$meul-200: #1254c2;
+$meul-300: #1254c2;
+$metd-000: #962327;
+$metd-100: #962327;
+$metd-200: #ffd700;
+$metd-300: #ffd700;
+$medm-000: #5d2396;
+$medm-100: #5d2396;
+$medm-200: #ffd700;
+$medm-300: #ffd700;
+$mele-000: #1e2b84;
+$mele-100: #1e2b84;
+$mele-200: #5d2396;
+$mele-300: #5d2396;
+$meas-000: #1d4718;
+$meas-100: #1d4718;
+$meas-200: #ffd700;
+$meas-300: #ffd700;
+$mewh-000: #43a38f;
+$mewh-100: #43a38f;
+$mewh-200: #7e685d;
+$mewh-300: #7e685d;
+$mech-000: #b3b6b7;
+$mech-100: #b3b6b7;
+$mech-200: #8e9294;
+$mech-300: #8e9294;
+$meba-000: #84665c;
+$meba-100: #84665c;
+$meba-200: #d74431;
+$meba-300: #d74431;
+$hero-resource-000: #d59682;
+$hero-resource-100: #d59682;
+$hero-resource-200: #000;
+$hero-resource-300: #000;
+$minion-resource-000: #47556d;
+$minion-resource-100: #47556d;
+$minion-resource-200: #000;
+$minion-resource-300: #000;
+$minion-resource-reprint-000: #47556d;
+$minion-resource-reprint-100: #47556d;
+$minion-resource-reprint-200: #b7b7b7;
+$minion-resource-reprint-300: #b7b7b7;
+$hero-resource-unlimited-000: #d59682;
+$hero-resource-unlimited-100: #d59682;
+$hero-resource-unlimited-200: #2a6cdb;
+$hero-resource-unlimited-300: #2a6cdb;
+$hero-resource-reprint-000: #d59682;
+$hero-resource-reprint-100: #d59682;
+$hero-resource-reprint-200: #b7b7b7;
+$hero-resource-reprint-300: #b7b7b7;
+$hero-resource-starter-000: #d59682;
+$hero-resource-starter-100: #d59682;
+$hero-resource-starter-200: #e9e9e9;
+$hero-resource-starter-300: #e9e9e9;
+$hero-resource-title-000: #d5ab9f;
+$hero-resource-title-100: #d5ab9f;
+$hero-resource-title-200: #d5ab9f;
+$hero-resource-title-300: #d5ab9f;
+$minion-resource-title-000: #667187;
+$minion-resource-title-100: #667187;
+$minion-resource-title-200: #667187;
+$minion-resource-title-300: #667187;
+$hero-resource-text-000: #f2edde;
+$hero-resource-text-100: #f2edde;
+$hero-resource-text-200: #f2edde;
+$hero-resource-text-300: #f2edde;
+$minion-resource-text-000: #acb3bf;
+$minion-resource-text-100: #acb3bf;
+$minion-resource-text-200: #acb3bf;
+$minion-resource-text-300: #acb3bf;
+$hazard-000: #636a6e;
+$hazard-100: #636a6e;
+$hazard-200: #000;
+$hazard-300: #000;
+$hazard-reprint-000: #636a6e;
+$hazard-reprint-100: #636a6e;
+$hazard-reprint-200: #b7b7b7;
+$hazard-reprint-300: #b7b7b7;
+$hazard-starter-000: #636a6e;
+$hazard-starter-100: #636a6e;
+$hazard-starter-200: #e9e9e9;
+$hazard-starter-300: #e9e9e9;
+$hazard-unlimited-000: #636a6e;
+$hazard-unlimited-100: #636a6e;
+$hazard-unlimited-200: #2a6cdb;
+$hazard-unlimited-300: #2a6cdb;
+$hazard-title-000: #747474;
+$hazard-title-100: #747474;
+$hazard-title-200: #747474;
+$hazard-title-300: #747474;
+$hazard-text-000: #b8b8b8;
+$hazard-text-100: #b8b8b8;
+$hazard-text-200: #b8b8b8;
+$hazard-text-300: #b8b8b8;
+$character-000: #dce6ee;
+$character-100: #dce6ee;
+$character-200: #000;
+$character-300: #000;
+$character-reprint-000: #dce6ee;
+$character-reprint-100: #dce6ee;
+$character-reprint-200: #b7b7b7;
+$character-reprint-300: #b7b7b7;
+$character-starter-000: #dce6ee;
+$character-starter-100: #dce6ee;
+$character-starter-200: #e9e9e9;
+$character-starter-300: #e9e9e9;
+$minion-character-000: #5e516a;
+$minion-character-100: #5e516a;
+$minion-character-200: #000;
+$minion-character-300: #000;
+$minion-character-reprint-000: #5e516a;
+$minion-character-reprint-100: #5e516a;
+$minion-character-reprint-200: #b7b7b7;
+$minion-character-reprint-300: #b7b7b7;
+$character-unlimited-000: #dce6ee;
+$character-unlimited-100: #dce6ee;
+$character-unlimited-200: #2a6cdb;
+$character-unlimited-300: #2a6cdb;
+$character-title-000: #f7f9fb;
+$character-title-100: #f7f9fb;
+$character-title-200: #f7f9fb;
+$character-title-300: #f7f9fb;
+$minion-character-title-000: #72687d;
+$minion-character-title-100: #72687d;
+$minion-character-title-200: #72687d;
+$minion-character-title-300: #72687d;
+$character-text-000: #f7f9fb;
+$character-text-100: #f7f9fb;
+$character-text-200: #f7f9fb;
+$character-text-300: #f7f9fb;
+$minion-character-text-000: #9697b0;
+$minion-character-text-100: #9697b0;
+$minion-character-text-200: #9697b0;
+$minion-character-text-300: #9697b0;
+$character-shield-000: #bcc5cc;
+$character-shield-100: #bcc5cc;
+$character-shield-200: #bcc5cc;
+$character-shield-300: #bcc5cc;
+$hero-site-000: #dfddd0;
+$hero-site-100: #dfddd0;
+$hero-site-200: #000;
+$hero-site-300: #000;
+$hero-site-unlimited-000: #dfddd0;
+$hero-site-unlimited-100: #dfddd0;
+$hero-site-unlimited-200: #2a6cdb;
+$hero-site-unlimited-300: #2a6cdb;
+$hero-site-reprint-000: #dfddd0;
+$hero-site-reprint-100: #dfddd0;
+$hero-site-reprint-200: #b7b7b7;
+$hero-site-reprint-300: #b7b7b7;
+$hero-site-text-000: #f9f7f3;
+$hero-site-text-100: #f9f7f3;
+$hero-site-text-200: #f9f7f3;
+$hero-site-text-300: #f9f7f3;
+$minion-site-000: #7b7b7b;
+$minion-site-100: #7b7b7b;
+$minion-site-200: #000;
+$minion-site-300: #000;
+$minion-site-reprint-000: #7b7b7b;
+$minion-site-reprint-100: #7b7b7b;
+$minion-site-reprint-200: #b7b7b7;
+$minion-site-reprint-300: #b7b7b7;
+$minion-site-text-000: #b5afb1;
+$minion-site-text-100: #b5afb1;
+$minion-site-text-200: #b5afb1;
+$minion-site-text-300: #b5afb1;
+$balrog-site-000: #8b7b74;
+$balrog-site-100: #8b7b74;
+$balrog-site-200: #000;
+$balrog-site-300: #000;
+$balrog-site-text-000: #a3988f;
+$balrog-site-text-100: #a3988f;
+$balrog-site-text-200: #a3988f;
+$balrog-site-text-300: #a3988f;
+$fw-site-000: #b7b7b7;
+$fw-site-100: #b7b7b7;
+$fw-site-200: #000;
+$fw-site-300: #000;
+$fw-site-text-000: #e6e6e6;
+$fw-site-text-100: #e6e6e6;
+$fw-site-text-200: #e6e6e6;
+$fw-site-text-300: #e6e6e6;
+$stage-resource-000: #8bafab;
+$stage-resource-100: #8bafab;
+$stage-resource-200: #000;
+$stage-resource-300: #000;
+$stage-resource-name-000: #c6d4d1;
+$stage-resource-name-100: #c6d4d1;
+$stage-resource-name-200: #c6d4d1;
+$stage-resource-name-300: #c6d4d1;
+$stage-resource-text-000: #f2edde;
+$stage-resource-text-100: #f2edde;
+$stage-resource-text-200: #f2edde;
+$stage-resource-text-300: #f2edde;
+
+.note {
+    padding: 0.2rem !important;
+    border-left: 2px solid !important;
+    border-top: 2px solid !important;
+    border-bottom: 2px solid !important;
+    border-right: 2px solid !important;
+  }
+
+.bullets {
+    border-left: 4px dotted !important;
+    border-radius: 0px !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    padding: 0rem 0rem 0rem 0.2rem !important;
+  }
+
+.blank {
+    border-left: 4px solid #fff !important;
+    border-radius: 0px !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    padding: 0rem 0rem 0rem 0.2rem !important;
+  }
+
+.card-name {
+  font-weight: 500;
+  font-family: "Palatino Linotype", "Palatino";
+  font-variant: small-caps;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  text-align: center;
+  @include fs-6;
+}
+
+.character-card-name {
+  font-weight: 500;
+  font-family: "Palatino Linotype", "Palatino";
+  font-variant: small-caps;
+  color: $body-text-color;
+  text-align: center;
+  @include fs-6;
+}
+
+.card-mp {
+  float: left;
+  color: black;
+  @include fs-6;
+}
+
+.hazard-mp {
+  float: left;
+  color: white;
+  @include fs-6;
+}
+
+.card-classification {
+  font-weight: 200;
+  font-variant: small-caps;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  text-align: right;
+}
+
+.hazard-classification {
+  font-weight: 200;
+  font-variant: small-caps;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  text-align: right;
+}
+
+.character-card-classification {
+  font-weight: 200;
+  font-variant: small-caps;
+  color: black;
+  text-align: right;
+}
+
+.card-shield {
+  float: left;
+  color: white;
+  @include fs-5;
+}
+
+.card-set {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  @include fs-2;
+}
+
+.card-corruption {
+  text-align: right;
+  color: black;
+  @include fs-5;
+}
+
+.card-corruption-white {
+  text-align: right;
+  color: white;
+  @include fs-5;
+}
+
+.card-corruption-float {
+  float: right;
+  @include fs-5;
+}
+
+.hero-site-draw {
+  float: left;
+  @include fs-5;
+  font-weight: bold;
+}
+
+.hero-you-draw {
+  color: black;
+  background-color: #dfddd0;
+  font-weight: bold;
+}
+
+.hero-opp-draw {
+  color: white;
+  background-color: #5b5b5b;
+  font-weight: bold;
+  // display: inline-block;
+  // -moz-transform: scale(-1, -1);
+  // -webkit-transform: scale(-1, -1);
+  // -o-transform: scale(-1, -1);
+  // -ms-transform: scale(-1, -1);
+  // transform: scale(-1, -1);
+}
+
+.minion-you-draw {
+  color: black;
+  background-color: $grey-lt-300;
+  font-weight: bold;
+}
+
+.minion-opp-draw {
+  color: white;
+  background-color: #5b5b5b;
+  font-weight: bold;
+  // display: inline-block;
+  // -moz-transform: scale(-1, -1);
+  // -webkit-transform: scale(-1, -1);
+  // -o-transform: scale(-1, -1);
+  // -ms-transform: scale(-1, -1);
+  // transform: scale(-1, -1);
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+.red-text {
+  color: red;
+}
+
+mecd {
+  font-style: normal;
+  font-weight: 900;
+  font-family: "Trebuchet MS";
+}
+
+.mecd {
+  font-style: normal;
+  font-weight: 900;
+  font-family: "Trebuchet MS";
+}
+
+.mind-di {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Trebuchet MS";
+}
+
+.float-right {
+  width: 50%;
+  float: right;
+}
+
+.float-r {
+  float: right;
+}
+
+.page-number {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: default;
+  @include fs-4;
+  font-weight: bold;
+  float: right;
+  margin-inline: 1em;
+}
+
+hr {
+  margin-top: 1.5em;  
+}
+
+.contact-form {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 49%;
+    padding: 1em 1.5em;
+    border: 1px solid #959396;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    font-family: timesnewroman, "Times New Roman", times, baskerville, georgia,
+      serif;
+  }
+
+  textarea {
+    width: 99%;
+    resize: none;
+  }
+}
+
+.scroll {
+  list-style: none;
+}
+
+.note {
+    page-break-inside: avoid;
+  }
+
+// Print-only styles.
+@media print {
+  .details, //added
+  .side-bar,
+  .page-header {
+    display: none;
+  }
+
+  .main-content {
+    max-width: auto;
+    margin: 1em;
+  }
+
+  h1 {
+    page-break-inside: avoid;
+  }
+
+  h1::after {
+    content: "";
+    display: block;
+    height: 100px;
+    margin-bottom: -100px;
+  }
+
+  h2 {
+    page-break-inside: avoid;
+  }
+
+  h2::after {
+    content: "";
+    display: block;
+    height: 100px;
+    margin-bottom: -100px;
+  }
+
+  h3 {
+    page-break-inside: avoid;
+  }
+
+  h3::after {
+    content: "";
+    display: block;
+    height: 100px;
+    margin-bottom: -100px;
+  }
+
+  h4 {
+    page-break-inside: avoid;
+  }
+
+  h4::after {
+    content: "";
+    display: block;
+    height: 100px;
+    margin-bottom: -100px;
+  }
+  
+  .note {
+    page-break-inside: avoid;
+  }
+  
+  .note::after {
+    content: "";
+    display: block;
+    height: 50px;
+    margin-bottom: -50px;
+  }
+}

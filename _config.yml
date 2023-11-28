@@ -4,6 +4,7 @@ logo: "/assets/images/meccg.png"
 favicon_ico: "/assets/images/TheRedBook.ico"
 search_enabled: false
 baseurl: "/"
+color_scheme: meccg
 permalink: pretty
 heading_anchors: true
 gh_edit_link: false

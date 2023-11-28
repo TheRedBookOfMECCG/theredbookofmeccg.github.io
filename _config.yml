@@ -1,4 +1,165 @@
 remote_theme: just-the-docs/just-the-docs@v0.7.0
 title: The Red Book of MECCG
+logo: "/assets/images/meccg.png"
 favicon_ico: "/assets/images/TheRedBook.ico"
 search_enabled: false
+baseurl: "/"
+permalink: pretty
+heading_anchors: true
+gh_edit_link: false
+
+callouts_level: quiet # quiet or loud, loud is night mode
+callouts_opacity: 1
+callouts:
+  highlight:
+    color: yellow
+  Grey-md:
+    color: grey-md
+  Grey-dk:
+    color: grey-dk
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    color: grey-md
+  note-dk:
+    color: grey-dk
+  bullets:
+    color: grey-md
+  clarification:
+    title: Clarification
+    color: grey-md
+  example:
+    color: grey-dk
+  exception:
+    title: Exception
+    color: grey-md
+  suggestion:
+    title: Suggestion
+    color: grey-md
+  metw:
+    color: metw
+  meul:
+    color: meul
+  metd:
+    color: metd
+  medm:
+    color: medm
+  mele:
+    color: mele
+  meas:
+    color: meas
+  mewh:
+    color: mewh
+  mech:
+    color: mech
+  meba:
+    color: meba
+  metw-title:
+    title: The Wizards Limited
+    color: metw
+  meul-title:
+    title: The Wizards Unlimited
+    color: meul
+  mele-title:
+    title: The Lidless Eye
+    color: mele
+  mewh-title:
+    title: The White Hand
+    color: mewh
+  meba-title:
+    title: The Balrog
+    color: meba
+  lore:
+    title: Lore
+    color: yellow
+  counsel:
+    color: yellow
+  tip:
+    title: Tip
+    color: grey-md
+  hero-resource:
+    color: hero-resource
+  minion-resource:
+    color: minion-resource
+  minion-resource-reprint:
+    color: minion-resource-reprint
+  hero-resource-name:
+    color: hero-resource-title
+  minion-resource-name:
+    color: minion-resource-title
+  hero-resource-text:
+    color: hero-resource-text
+  minion-resource-text:
+    color: minion-resource-text
+  hazard:
+    color: hazard
+  hazard-name:
+    color: hazard-title
+  hazard-text:
+    color: hazard-text
+  character:
+    color: character
+  minion-character:
+    color: minion-character
+  minion-character-reprint:
+    color: minion-character-reprint
+  character-frame:
+    color: character-title
+  minion-character-frame:
+    color: minion-character-title
+  character-text:
+    color: character-text
+  minion-character-text:
+    color: minion-character-text
+  character-shield:
+    color: character-shield
+  hero-site:
+    color: hero-site
+  hero-site-text:
+    color: hero-site-text
+  minion-site:
+    color: minion-site
+  minion-site-reprint:
+    color: minion-site-reprint
+  balrog-site:
+    color: balrog-site
+  minion-site-text:
+    color: minion-site-text
+  balrog-site-text:
+    color: balrog-site-text
+  fw-site:
+    color: fw-site
+  fw-site-text:
+    color: fw-site-text
+  hero-resource-unlimited:
+    color: hero-resource-unlimited
+  hero-resource-reprint:
+    color: hero-resource-reprint
+  hero-resource-starter:
+    color: hero-resource-starter
+  hazard-unlimited:
+    color: hazard-unlimited
+  hazard-reprint:
+    color: hazard-reprint
+  hazard-starter:
+    color: hazard-starter
+  character-unlimited:
+    color: character-unlimited
+  character-starter:
+    color: character-starter
+  character-reprint:
+    color: character-reprint
+  hero-site-unlimited:
+    color: hero-site-unlimited
+  hero-site-reprint:
+    color: hero-site-reprint
+  stage-resource:
+    color: stage-resource
+  stage-resource-name:
+    color: stage-resource-name
+  stage-resource-text:
+    color: stage-resource-text
